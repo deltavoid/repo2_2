@@ -29,4 +29,5 @@ add_executable(repo2_2_binary1
 target_link_libraries(repo2_2_binary1
     repo2_2_library1
     # library1_1
+    Repo2_1::repo2_1_library1
 )
