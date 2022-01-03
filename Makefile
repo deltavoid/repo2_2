@@ -33,4 +33,4 @@ uninstall:
 
 
 run: build
-	$(BUILD_DIR)/binary1/repo2_2_binary1
+	$(BUILD_DIR)/binary1/binary1
