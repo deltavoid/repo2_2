@@ -35,6 +35,9 @@ message("CMAKE_CURRENT_LIST_DIR: ${CMAKE_CURRENT_LIST_DIR}")
 add_library(repo2_2_library1 STATIC
     library1.c
 )
+set_target_properties(repo2_2_library1 PROPERTIES 
+    OUTPUT_NAME test_library2
+)
 target_include_directories(repo2_2_library1
     PUBLIC
         $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/../>
