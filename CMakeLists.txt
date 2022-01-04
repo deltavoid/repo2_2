@@ -42,7 +42,6 @@ find_package(Repo2_1 REQUIRED)
 
 # targets and directories
 add_subdirectory(library1)
-# add_subdirectory(library1_1)
 add_subdirectory(binary1)
 
 
