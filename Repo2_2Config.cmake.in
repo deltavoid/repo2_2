@@ -1,5 +1,5 @@
 
-message("Repo1Config.cmake.in begin")
+message("Repo2_2Config.cmake.in begin")
 
 
 message("CMAKE_PROJECT_NAME: ${CMAKE_PROJECT_NAME}")
@@ -33,4 +33,4 @@ if (NOT TARGET Repo2_2::library1)
 endif()
 
 
-message("Repo1Config.cmake.in end")
+message("Repo2_2Config.cmake.in end")
