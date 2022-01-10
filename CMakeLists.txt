@@ -35,8 +35,8 @@ message("CMAKE_TOOLCHAIN_FILE: ${CMAKE_TOOLCHAIN_FILE}")
 # dependencies
 
 
-find_package(Repo2_1 REQUIRED)
-
+# find_package(Repo2_1 REQUIRED)
+include(Repo2_2Dependency.cmake)
 
 
 

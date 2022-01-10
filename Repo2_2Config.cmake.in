@@ -28,6 +28,7 @@ include(CMakeFindDependencyMacro)
 # targets
 
 if (NOT TARGET Repo2_2::library1)
+  include("${CMAKE_CURRENT_LIST_DIR}/Repo2_2Dependency.cmake")
   include("${CMAKE_CURRENT_LIST_DIR}/Repo2_2Targets.cmake")
 endif()
 
