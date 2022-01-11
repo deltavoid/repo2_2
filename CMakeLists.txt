@@ -36,7 +36,7 @@ message("CMAKE_TOOLCHAIN_FILE: ${CMAKE_TOOLCHAIN_FILE}")
 
 
 # find_package(Repo2_1 REQUIRED)
-include(Repo2_2Dependency.cmake)
+include(Repo2_2Dependencies.cmake)
 
 
 
@@ -124,12 +124,12 @@ install(
   DESTINATION lib/cmake/${PACKAGE_PATH_NAME}
 )
 
-file(COPY ${CMAKE_CURRENT_LIST_DIR}/${PACKAGE_FILE_NAME}Dependency.cmake
+file(COPY ${CMAKE_CURRENT_LIST_DIR}/${PACKAGE_FILE_NAME}Dependencies.cmake
     DESTINATION ${CMAKE_BINARY_DIR}/
 )
 
 install(
-  FILES ${CMAKE_CURRENT_LIST_DIR}/${PACKAGE_FILE_NAME}Dependency.cmake
+  FILES ${CMAKE_CURRENT_LIST_DIR}/${PACKAGE_FILE_NAME}Dependencies.cmake
   DESTINATION lib/cmake/${PACKAGE_PATH_NAME}/
 )
 
